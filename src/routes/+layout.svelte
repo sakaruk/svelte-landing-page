@@ -59,7 +59,9 @@
 		</div>
 	</nav>
 </header>
-<slot />
+<div class="mt-32 mb-24" id="main-content">
+	<slot />
+</div>
 <div class="bg-white-300 pt-44 pb-24">
 	<div
 		class="max-w-screen-xl w-full mx-auto px-6 sm:px-8 lg:px-16 grid grid-rows-6 sm:grid-rows-1 grid-flow-row sm:grid-flow-col grid-cols-3 sm:grid-cols-12 gap-4"
